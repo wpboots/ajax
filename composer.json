@@ -1,0 +1,19 @@
+{
+    "name": "boots/ajax",
+    "type": "boots-extension",
+    "description": "An efficient and more reliable ajax approach.",
+    "keywords": ["boots","wordpress","ajax","utility"],
+    "homepage": "http://wpboots.com/extensions/ajax",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "M. Kamal Khan",
+            "email": "shout@bhittani.com",
+            "homepage": "http://bhittani.com",
+            "role": "Developer"
+        }
+    ],
+    "require" : {
+        "boots/enqueue" : "dev-master"
+    }
+}
