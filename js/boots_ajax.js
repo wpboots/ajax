@@ -51,7 +51,7 @@
             _action : self.options.action,
             _nonce  : self.options.nonce
         })
-        : '?_action='+self.options.action+'&_nonce='+self.options.nonce+'&'+self.options.data;
+        : '_action='+self.options.action+'&_nonce='+self.options.nonce+'&'+self.options.data;
 
         delete self.options.action;
         delete self.options.nonce;
