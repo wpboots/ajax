@@ -14,6 +14,6 @@
         }
     ],
     "require" : {
-        "boots/enqueue" : "dev-master"
+        "boots/enqueue" : "~1.0.0"
     }
 }
